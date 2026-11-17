@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #222;
+}
+
+header {
+    background: #23568b;
+    color: white;
+    padding: 15px;
+}
+
+nav { margin-top: 10px; }
+nav a { color: white; margin-right: 15px; }
+main { max-width: 900px; margin: 30px auto; padding: 0 15px; }
+footer { text-align: center; padding: 15px; }
+
+.carte {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.formulaire { max-width: 420px; margin: auto; }
+label { display: block; margin-bottom: 12px; }
+label input, label select { display: block; margin-top: 5px; }
+input, select, button { padding: 7px; font: inherit; }
+input { max-width: 95%; }
+button { background: #23568b; color: white; border: 0; cursor: pointer; }
+.actions a { margin-left: 8px; }
+
+.tableau { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; border: 1px solid #ccc; padding: 8px; }
+th { background: #e8eff7; }
+.photo { width: 45px; height: 45px; object-fit: cover; border-radius: 50%; }
+.note-ok, .succes { color: #16703a; }
+.note-basse, .erreur { color: #b22121; }
+.succes { background: #e4f6e8; padding: 10px; }
+.erreur { background: #fce8e8; }
+
+form[action="theme.php"] { margin-bottom: 16px; }
+.sombre { background: #222; color: #eee; }
+.sombre .carte, .sombre input, .sombre select { background: #333; color: #eee; }
+.sombre th { background: #444; }
+.sombre a { color: #a5d1ff; }
+.sombre .note-ok { color: #90e1a8; }
+.sombre .note-basse { color: #ffaaaa; }

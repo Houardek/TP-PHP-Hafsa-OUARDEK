@@ -1,0 +1,3 @@
+1;OUARDEK;Hafsa;GI;20;etu_6afb27fa0bc23.jpg
+2;Alaoui;Ahmed;IDIA;17;etu_6afb285409c78.jpeg
+3;Club;PIXEL;GE;20;etu_6afb2874120dc.jpeg
